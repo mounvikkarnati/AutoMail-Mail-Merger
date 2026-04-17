@@ -1,0 +1,123 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f7fb;
+}
+
+/* Container */
+.app-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Title */
+.title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Section spacing */
+.section {
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+input[type="text"],
+textarea,
+input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #4a90e2;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #357bd8;
+}
+
+/* Secondary button */
+.secondary-btn {
+  background: #28a745;
+}
+
+.secondary-btn:hover {
+  background: #218838;
+}
+
+/* Preview Box */
+.preview-box {
+  background: #fafafa;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* Labels */
+.label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+  color: #444;
+}
+
+.logs-section {
+  margin-top: 30px;
+}
+
+.log-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+.failed {
+  color: red;
+  font-weight: bold;
+}
+
+details {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+pre {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
